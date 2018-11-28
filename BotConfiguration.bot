@@ -1,0 +1,34 @@
+{
+    "name": "proxybotnodev4",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "5d2a719b-411a-4f17-a6c4-0d0bd0e2fd37",
+            "resourceGroup": "ProxyBotNodeV4",
+            "serviceName": "proxybotnodev4",
+            "name": "proxybotnodev4",
+            "id": "1",
+            "appId": "2eb1d03e-0227-40cb-9a8b-7f28297ea51c"
+        },
+        {
+            "type": "endpoint",
+            "id": "2",
+            "name": "development",
+            "endpoint": "http://localhost:3977/api/messages",
+            "appId": "2eb1d03e-0227-40cb-9a8b-7f28297ea51c",
+            "appPassword": "IVdCcCWEEVbMxBjczuEVyA==!d/r97L99lQF2pXkW7l0cqeNJ/IHa9cuVMQ6jmlZqKC0="
+        },
+        {
+            "type": "endpoint",
+            "id": "3",
+            "name": "production",
+            "endpoint": "https://proxybotnodev4.azurewebsites.net/api/messages",
+            "appId": "2eb1d03e-0227-40cb-9a8b-7f28297ea51c",
+            "appPassword": "cwqL7MX+X4XJOG+Ag/Pp2A==!XCme1EJFIobaW6BeLLnSBElc0XrZIClgUSlqtWNOqTk="
+        }
+    ],
+    "padlock": "rBsTYb//5pD63lqcepbplg==!Xmt+GqUXzNxifLeJm+hhyPnsApuWo5tXIQlRri0wIzmlydDDenwaNwM2jOsNPHpV",
+    "version": "2.0"
+}
